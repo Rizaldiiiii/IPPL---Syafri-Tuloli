@@ -160,3 +160,4 @@ Hal-hal yang tidak diatur eksplisit pada spesifikasi dan diputuskan sebagai beri
 11. **Rate limit.** Rute register dan login dibatasi 30 permintaan per 15 menit per alamat IP, dan dinonaktifkan saat `NODE_ENV=test`.
 12. **Kolom weekendDays.** Disimpan sebagai string berisi daftar angka (0 = Minggu … 6 = Sabtu) dan diterjemahkan menjadi array oleh API.
 13. **Delete cascade.** Menghapus proyek menghapus tugas, dependensi, resource, alokasi, dan hari liburnya; menghapus tugas menghapus anak, dependensi, dan alokasinya; menghapus anggota menghapus alokasinya.
+14. **Penataan komponen client.** Blueprint menyebut folder `components/team` dan `components/calendar`. Keduanya tidak dibuat karena antarmuka halaman Tim dan Kalender hanya dipakai di satu halaman masing-masing dan tidak ada komponen bersama di dalamnya; `components/` berisi `gantt`, `pert`, `tasks`, `ui`, dan `layout`.
