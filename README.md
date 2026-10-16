@@ -1,6 +1,9 @@
 # GanttKu — Aplikasi Manajemen Proyek Gantt Chart
 
 Aplikasi web manajemen proyek berbasis **Gantt Chart** untuk banyak pengguna. Seluruh data tersimpan di database melalui REST API (bukan `localStorage`). Antarmuka berbahasa Indonesia.
+<img width="1917" height="906" alt="image" src="https://github.com/user-attachments/assets/c3e725c4-015a-42be-8d49-2e881236f99f" />
+<img width="1492" height="906" alt="image" src="https://github.com/user-attachments/assets/263eb05e-6264-4bc0-a6e8-2915e591bed8" />
+
 
 ## Fitur
 
